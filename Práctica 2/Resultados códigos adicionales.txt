@@ -1,0 +1,23 @@
+* code1.s
+ - original: 228 ciclos
+ - optimizado: 144 ciclos
+
+* code2.s
+ - original: 171 ciclos
+ - optimizado: 103 ciclos
+
+* code3.s
+ - original: 113 ciclos
+ - optimizado: 73 ciclos
+
+* code4.s
+ - original: 154 ciclos
+ - optimizado: 105 ciclos
+
+* code5.s
+ - original: 130 ciclos
+ - optimizado: 82 ciclos
+
+* code6.s
+ - original: 121 ciclos
+ - optimizado: 105 ciclos
