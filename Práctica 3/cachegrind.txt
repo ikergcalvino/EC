@@ -1,0 +1,37 @@
+----------------------------------valgrind output-----------------------------------
+
+==4809== I   refs:      2,044,499
+==4809== I1  misses:          909
+==4809== LLi misses:          909
+==4809== I1  miss rate:      0.04%
+==4809== LLi miss rate:      0.04%
+==4809== 
+==4809== D   refs:        561,757  (470,455 rd   + 91,302 wr)
+==4809== D1  misses:       11,901  (  1,331 rd   + 10,570 wr)
+==4809== LLd misses:       11,901  (  1,331 rd   + 10,570 wr)
+==4809== D1  miss rate:       2.1% (    0.3%     +   11.6%  )
+==4809== LLd miss rate:       2.1% (    0.3%     +   11.6%  )
+==4809== 
+==4809== LL refs:          12,810  (  2,240 rd   + 10,570 wr)
+==4809== LL misses:        12,810  (  2,240 rd   + 10,570 wr)
+==4809== LL miss rate:        0.5% (    0.1%     +   11.6%  )
+
+------------------------------------------------------------------------------------
+
+I   refs	: nº de accesos total a instrucciones
+I1  misses	: nº de fallos en la caché de instrucciones de nivel 1
+LLi misses	: nº de fallos en la caché de instrucciones de nivel 2 (last level)
+I1  miss rate	: % de fallos en la caché de instrucciones de nivel 1
+LLi miss rate	: % de fallos en la caché de instrucciones de nivel 2 (last level)
+
+D   refs	: nº de accesos total a datos
+D1  misses	: nº de fallos en la caché de datos de nivel 1
+LLd misses	: nº de fallos en la caché de datos de nivel 2 (last level)
+D1  miss rate	: % de fallos en la caché de datos de nivel 1
+LLd miss rate	: % de fallos en la caché de datos de nivel 2 (last level)
+
+LL refs	: nº de accesos total a la caché de último nivel
+LL misses	: nº de fallos globales en la caché de último nivel
+LL miss rate	: % de fallos globales en la caché de último nivel
+
+------------------------------------------------------------------------------------
